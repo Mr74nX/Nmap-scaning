@@ -1,5 +1,6 @@
 # Nmap-scaning 
-This code write by Mr Tan. 
+This code write by Mr Tan.
+
 An interactive and custom-built Nmap automation tool, completely designed and coded by me in Python to streamline network scanning and security assessments.
 
 A powerful, interactive, and automated network scanning toolkit built with Python and Nmap. This tool simplifies complex network security auditing, vulnerability scanning, and port mapping, offering advanced speed control features for ethical hackers and penetration testers.
