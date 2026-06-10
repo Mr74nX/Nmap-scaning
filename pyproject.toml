@@ -11,10 +11,12 @@ authors = [
 description = "An automation and network scanning utility tool."
 readme = "README.md"
 requires-python = ">=3.7"
+license = { text = "Custom License" } # <-- এখানে আপনার লাইসেন্সের নাম দিতে পারেন
+
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    # এখান থেকে OSI Approved লাইনের ঝামেলাটা পুরোপুরি তুলে দেওয়া হয়েছে
 ]
 
 [tool.setuptools.packages.find]
