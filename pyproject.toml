@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nmaping"
-version = "1.1"  # <-- আমরা নতুন করে পুশ দিচ্ছি তাই ভার্সন পরিবর্তন করে 0.1.1 করা হয়েছে
+version = "1.2"  # <-- আমরা নতুন মেটাডেটা পুশ করছি, তাই ভার্সনটি বাড়িয়ে ১.২ করে দিলাম
 authors = [
     { name="Abu Tanim", email="mrtanvai@gmail.com" },
 ]
@@ -18,6 +18,16 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+# PyPI পেজে 'Verified details' আনার জন্য আপনার গিটহাবের লিংকসমূহ
+[project.urls]
+Homepage = "https://github.com/mrtan-official/Nmap-scaning"
+Bug-Tracker = "https://github.com/mrtan-official/Nmap-scaning/issues"
+
+# আপনার nmap.py মডিউলটি প্যাকেজে অন্তর্ভুক্ত করার নিয়ম
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["nmap.py"]
+
+# কালিতে সরাসরি 'nmaping' কমান্ড দিয়ে রান করানোর গ্লোবাল স্ক্রিপ্ট
+[project.scripts]
+nmaping = "nmap:menu"
