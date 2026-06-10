@@ -4,19 +4,18 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nmaping"
-version = "0.1.0"
+version = "0.1.1"  # <-- আমরা নতুন করে পুশ দিচ্ছি তাই ভার্সন পরিবর্তন করে 0.1.1 করা হয়েছে
 authors = [
     { name="Abu Tanim", email="mrtanvai@gmail.com" },
 ]
 description = "An automation and network scanning utility tool."
 readme = "README.md"
 requires-python = ">=3.7"
-license = { text = "Custom License" } # <-- এখানে আপনার লাইসেন্সের নাম দিতে পারেন
+license = { text = "Custom License" }
 
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
-    # এখান থেকে OSI Approved লাইনের ঝামেলাটা পুরোপুরি তুলে দেওয়া হয়েছে
 ]
 
 [tool.setuptools.packages.find]
